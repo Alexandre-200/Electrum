@@ -305,8 +305,13 @@ ul {
 }
 .newsletter-container form {
   display: flex;
+  align-items: center;
   margin: 3rem;
-  width: 100%;
+}
+@media (max-width: 425px) {
+  .newsletter-container form {
+    width: 100%;
+  }
 }
 .newsletter-container form input[type=email] {
   border: 1px solid #e4e7ed;
